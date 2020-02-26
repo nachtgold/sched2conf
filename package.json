@@ -1,0 +1,12 @@
+{
+  "name": "sched2conf",
+  "version": "1.0.0",
+  "description": "Parses sched.com conferences and outputs conf.tech data",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {},
+  "author": "Kai Zimmermann aka nachtgold",
+  "license": "MIT"
+}
