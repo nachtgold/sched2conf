@@ -6,7 +6,21 @@
   "dependencies": {
     "puppeteer": "^2.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jasmine": "^3.5.0"
+  },
   "author": "Kai Zimmermann aka nachtgold",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "npx jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachtgold/sched2conf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nachtgold/sched2conf/issues"
+  },
+  "homepage": "https://github.com/nachtgold/sched2conf#readme"
 }
