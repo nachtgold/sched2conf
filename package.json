@@ -8,12 +8,14 @@
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jasmine": "^3.5.0"
+    "expect.js": "^0.3.1",
+    "mocha": "^7.1.0",
+    "mocha-eslint": "^6.0.0"
   },
   "author": "Kai Zimmermann aka nachtgold",
   "license": "MIT",
   "scripts": {
-    "test": "npx jasmine"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

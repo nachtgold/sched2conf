@@ -39,7 +39,8 @@ const App = {
     async getConfDataFrom(conference) {
         const data = this.CONF_DATA_TEMPLATE;
 
-        conference.startDate = await conference.$eval('div.eventname', node => node.innerText);
+        data.name = await conference.$eval('div.eventname', node => node.innerText);
+        data.startDate = await conference.$eval('div.eventdate', node => node.innerText);
 
         return data;
     },

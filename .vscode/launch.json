@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [{ // use Intellisense and select Node Mocha from the list .. nice
+        "type": "node",
+        "request": "launch",
+        "name": "Mocha Tests",
+        "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+        "args": [
+            "-u",
+            "bdd", // allows BDD test methods/syntax (describe, before, ..)
+            "--timeout",
+            "999999",
+            "--colors",
+            "${workspaceFolder}/test"
+        ],
+        "internalConsoleOptions": "openOnSessionStart",
+        "skipFiles": [
+            "<node_internals>/**"
+        ]
+    }],
+    "compounds": []
+}
